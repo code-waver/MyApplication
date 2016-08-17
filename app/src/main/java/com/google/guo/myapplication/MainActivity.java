@@ -1,6 +1,5 @@
 package com.google.guo.myapplication;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
@@ -24,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
             String s=">>>"+i;
             data.add(s);
         }
+        for (int i = 0; i <10 ; i++) {
+            for(int j=0;j<20;j++){
+                Log.d("print", "onCreate: "+i);
+                Log.d("print", "onCreate: "+j);
+            }
+
+        }
+
         Intent intent1=new Intent();
         startActivity(intent1);
         Intent intent2=new Intent();
