@@ -31,6 +31,20 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
+        for (int i = 0; i <10 ; i++) {
+            for(int j=0;j<20;j++){
+                Log.d("print", "onCreate: "+i);
+                Log.d("print", "onCreate: "+j);
+            }
+
+        }
+        for (int i = 0; i <10 ; i++) {
+            for(int j=0;j<20;j++){
+                Log.d("print", "onCreate: "+i);
+                Log.d("print", "onCreate: "+j);
+            }
+
+        }
 
     }
 }
