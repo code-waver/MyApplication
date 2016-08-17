@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
             String s=">>>"+i;
             data.add(s);
         }
-        adapter=new Myadapter(this,data);
-        lv.setAdapter(adapter);
 
     }
 }
