@@ -1,5 +1,6 @@
 package com.google.guo.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
@@ -23,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
             String s=">>>"+i;
             data.add(s);
         }
-
+        Intent intent1=new Intent();
+        startActivity(intent1);
+        Intent intent2=new Intent();
+        startActivity(intent2);
+        Intent intent3=new Intent();
+        startActivity(intent3);
+        Intent intent4=new Intent();
+        startActivity(intent4);
     }
 }
